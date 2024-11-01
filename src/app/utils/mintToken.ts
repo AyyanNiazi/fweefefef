@@ -18,7 +18,7 @@ import {
 } from "@solana/spl-token";
 import { getMintAddress } from "../helpers/mintAddress";
 import * as anchor from "@project-serum/anchor";
-import { bytes } from "@coral-xyz/anchor/dist/cjs/utils";
+// import { bytes } from "@coral-xyz/anchor/dist/cjs/utils";
 
 export const mintToken = async (wallet: AnchorWallet, amount: number) => {
   const provider = new anchor.AnchorProvider(connection, wallet, {});
