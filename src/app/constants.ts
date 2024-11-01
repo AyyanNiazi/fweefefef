@@ -1,6 +1,6 @@
 import { clusterApiUrl, Connection, PublicKey } from "@solana/web3.js";
 import idl from "../../idl.json";
-import { publicKey } from "@coral-xyz/anchor/dist/cjs/utils";
+// import { publicKey } from "@coral-xyz/anchor/dist/cjs/utils";
 export const endPoint =
   process.env.NEXT_PUBLIC_SOLANA_RPC_URL || clusterApiUrl("devnet");
 export const commitmentLevel = "confirmed";
